@@ -1,0 +1,426 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* *******************************************Resusable************************************************** */
+
+.gradient {
+    background-image: linear-gradient(135deg, #f28500 0%, #37517e 100%);
+    display: inline-block;
+    font-weight: bold;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* margin-top: 30%; */
+    font-size: 40px;
+}
+
+.underline-gradient {
+    background-image: linear-gradient(135deg, #f28500 0%, #37517e 100%);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+
+.top-m-section {
+    margin-top: 150px;
+}
+
+
+.top-m {
+    margin-top: 35px;
+}
+
+.top-m-100 {
+    margin-top: 100px;
+}
+
+
+.left-m-50 {
+    margin-left: 50px !important;
+}
+
+.left-m-120 {
+    margin-left: 120px !important;
+}
+
+.left-m-200 {
+    margin-left: 200px !important;
+}
+
+.left-m-100 {
+    margin-left: 100px !important;
+}
+
+.left-rev-m-50 {
+    margin-left: -50px !important;
+}
+
+.right-m {
+    margin-right: 100px !important;
+}
+
+.center-m-h-35 {
+    /* center margin horizontal */
+    margin-left: 35%;
+}
+
+.center-m-v-15 {
+    /* center margin verticle */
+    margin-top: 15%;
+}
+
+.section-c {
+    background-color: #fff4e6;
+}
+
+.circle {
+    border: 2px solid #37517e;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    float: left;
+    background-color: #37517e;
+}
+
+
+.hf_bf,
+/* header footer background font  */
+div.navbar {
+    background-color: #37517e !important;
+    color: #f2f2f2 !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+}
+
+p.hf_bf:hover,
+a:hover {
+    color: #47b2e4 !important;
+    transform: scale(1.1);
+
+}
+
+.fwcwb-ahp {
+    /* font white color with bold on a, h, p */
+    text-decoration: none;
+    color: #47b2e4;
+    font-weight: bold;
+    font-size: 200%;
+
+}
+
+.fwc_pa {
+    /* font white color on p and a */
+    text-decoration: none;
+    color: #f2f2f2;
+    margin: 10px;
+}
+
+.fhc_pa {
+    /* font header color on p and a */
+    text-decoration: none;
+    color: #37517e;
+    font-weight: bold;
+
+}
+
+
+.active {
+    color: #47b2e4 !important;
+}
+
+ul.ih_hpa {
+    /* inline header on h, p and a */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+
+}
+
+
+.s_ds {
+    /* slider on div, section */
+    background-color: #37517e;
+    height: 90%;
+    width: 100%;
+    margin-top: 4.5%;
+
+
+}
+
+
+.st_pa {
+    /* slider title on p, a */
+    color: #fff;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 30%;
+    font-weight: bold;
+}
+
+.sd_pa {
+    /* slider description on p, a */
+    color: #a39d9d;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.s_i {
+    /* slider on image*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%
+}
+
+
+
+
+
+
+.subt_pa {
+    /* subtitle title on p, a */
+    position: relative;
+    color: #3c4858;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.subtd_pa {
+    /* subtitle description on p, a */
+    /* color: #686666;
+    font-size: 20px;
+    margin-top: 30%; */
+
+
+}
+
+.d_pa {
+    /* description on p, a */
+    color: #686666;
+    text-decoration: none;
+    font-size: 20px;
+    overflow: hidden;
+
+}
+
+.icon {
+    padding: 15px;
+}
+
+/* ****************************************START CSS: 3rd  Section **********************  */
+
+
+.unfeat-list li .icon {
+    border: 2px solid #37517e;
+    border-radius: 50%;
+    width: 74px;
+    height: 74px;
+    position: relative;
+    float: left;
+    margin-right: 15px;
+    background-color: #37517e;
+
+
+}
+
+/* ****************************************END CSS: 3rd Section **********************  */
+/* ****************************************START CSS: 4rd Section **********************  */
+.s_img {
+
+    margin-bottom: 50px;
+    width: 67%
+}
+
+
+.separator {
+    margin-bottom: 15px;
+    position: relative;
+    width: 250px;
+    height: 3px;
+    background: linear-gradient(to left, #37517e 0%, #47b2e4 100%);
+
+}
+
+.icon-img {
+    vertical-align: middle;
+    width: 39px;
+    border-style: none;
+}
+
+
+
+
+/* ****************************************END CSS: 4rd Section **********************  */
+
+
+
+/* *****************************************Header CSS Start ************************************************/
+
+
+
+
+/* ****************************************dropdown CSS start ***********************************************/
+/* ******************************************dropdown CSS END ***********************************************/
+
+
+/* footer****************************** */
+.footer-color {
+    background: #37517e;
+    background: #47b2e4(0, 0, 0, 1.0);
+    background-size: 550% 450%;
+}
+
+.subtf_pa {
+    /* subtitle title on p, a */
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    list-style: none;
+    font-weight: 500;
+}
+
+.sm-icon {
+    height: 10vh;
+    text-decoration: none;
+    font-size: 40px;
+    text-align: left;
+}
+
+
+
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 16vh;
+    margin-bottom: -30px;
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.waves.waves-sm {
+    height: 50px;
+    min-height: 50px;
+}
+
+.waves.no-animation .surge-waves>use {
+    animation: none;
+}
+
+.wave-rotate {
+    transform: rotate(180deg);
+}
+
+/* ************************************wave-animationk******************************************************** */
+.surge-waves>use {
+    animation: move-forever 40s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+
+.surge-waves>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 11s;
+}
+
+.surge-waves>use:nth-child(2) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.surge-waves>use:nth-child(3) {
+    animation-delay: -3s;
+    animation-duration: 15s;
+}
+
+.surge-waves>use:nth-child(4) {
+    animation-delay: -4s;
+    animation-duration: 20s;
+}
+
+.surge-waves>use:nth-child(5) {
+    animation-delay: -4s;
+    animation-duration: 25s;
+}
+
+.surge-waves>use:nth-child(6) {
+    animation-delay: -3s;
+    animation-duration: 30s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.surge-waves>use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+
+}
+
+.surge-waves>use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+
+}
+
+.surge-waves>use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 14s;
+
+}
+
+.surge-waves>use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 18s;
+
+}
+
+.surge-waves>use:nth-child(5) {
+    animation-delay: -6s;
+    animation-duration: 20s;
+
+}
+
+.surge-waves>use:nth-child(6) {
+    animation-delay: -7s;
+    animation-duration: 22s;
+
+}
+
+@keyframes move-forever {
+    0% {
+        transform: matrix3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: matrix3d(85px, 0, 0);
+    }
+
+} */
+
+
+/* Header CSS End */
