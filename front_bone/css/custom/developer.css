@@ -1,0 +1,34 @@
+.bifl img {
+    /* banner image float left */
+    width: 50%;
+    float: left;
+}
+
+
+.fs-ap {
+    font-size: 100%;
+}
+
+.height-100 {
+    height: 100%;
+
+}
+
+.padding-bottom-110 {
+    padding-bottom: 110px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.btext-color {
+    /* banner text color */
+    color: azure;
+}
+
+.bkg {
+    background-image: url(../../images/backimage3.jpg);
+    /* -webkit-transform: scaleX(-1); */
+    /* transform: scaleX(-1); */
+}

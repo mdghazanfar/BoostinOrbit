@@ -5,6 +5,13 @@
 
 /* *******************************************Resusable************************************************** */
 
+.underline {
+
+    text-decoration-line: underline !important;
+
+    /* text-shadow: 1px 1px; */
+}
+
 .gradient {
     background-image: linear-gradient(135deg, #f28500 0%, #37517e 100%);
     display: inline-block;
@@ -26,18 +33,60 @@
     margin-top: 150px;
 }
 
+.bottom-m-10 {
+    margin-bottom: 10;
+}
+
+
+.bottom-m-100 {
+    margin-bottom: 100 !important;
+}
+
 
 .top-m {
     margin-top: 35px;
 }
 
+
+.top-m-10 {
+    margin-top: 10px;
+}
+
+.top-m-20 {
+    margin-top: 20px;
+}
+
+.top-m-50 {
+    margin-top: 50px;
+}
+
 .top-m-100 {
-    margin-top: 100px;
+    margin-top: 100px !important;
 }
 
 
+.left-m-10 {
+    margin-left: 10px !important;
+}
+
+.left-m-20 {
+    margin-left: 20px !important;
+}
+
+.left-m-7 {
+    margin-left: 7px !important;
+}
+
+.left-m-40 {
+    margin-left: 40px !important;
+}
+
 .left-m-50 {
     margin-left: 50px !important;
+}
+
+.left-m-60 {
+    margin-left: 60px !important;
 }
 
 .left-m-120 {
@@ -102,6 +151,17 @@ a:hover {
 
 }
 
+
+.fs_pa {
+    font-size: larger;
+    font-weight: bold !important;
+}
+
+.fcfh {
+    /* font color for headlines*/
+    color: #f28500;
+}
+
 .fwcwb-ahp {
     /* font white color with bold on a, h, p */
     text-decoration: none;
@@ -111,11 +171,12 @@ a:hover {
 
 }
 
-.fwc_pa {
+.fwc_pa,
+.dropdown-toggle {
     /* font white color on p and a */
     text-decoration: none;
     color: #f2f2f2;
-    margin: 10px;
+
 }
 
 .fhc_pa {
@@ -179,7 +240,11 @@ ul.ih_hpa {
 }
 
 
-
+.t_ds {
+    /*title on div, section */
+    /* height: 90%;
+    width: 100%; */
+}
 
 
 
@@ -194,9 +259,9 @@ ul.ih_hpa {
 
 .subtd_pa {
     /* subtitle description on p, a */
-    /* color: #686666;
+    color: #686666;
     font-size: 20px;
-    margin-top: 30%; */
+    margin-top: 30%;
 
 
 }
@@ -214,6 +279,20 @@ ul.ih_hpa {
     padding: 15px;
 }
 
+.bi-color {
+    /* Body fs color */
+    background-color: #37517e;
+}
+
+.fi-color {
+    /* footer icon color */
+    background-color: #47b2e4;
+}
+
+div.icon .fa:hover {
+    color: #37517e !important;
+}
+
 /* ****************************************START CSS: 3rd  Section **********************  */
 
 
@@ -225,7 +304,7 @@ ul.ih_hpa {
     position: relative;
     float: left;
     margin-right: 15px;
-    background-color: #37517e;
+    /* background-color: #37517e; */
 
 
 }
@@ -248,6 +327,19 @@ ul.ih_hpa {
 
 }
 
+.separator-f {
+    margin-bottom: 15px;
+    position: relative;
+    width: 120px;
+    height: 3px;
+    /* background: linear-gradient(135deg, #f28500 0%, #37517e 100%); */
+    background: linear-gradient(to left, #37517e 0%, #47b2e4 100%);
+
+
+}
+
+
+
 .icon-img {
     vertical-align: middle;
     width: 39px;
@@ -267,6 +359,7 @@ ul.ih_hpa {
 
 
 /* ****************************************dropdown CSS start ***********************************************/
+
 /* ******************************************dropdown CSS END ***********************************************/
 
 
@@ -277,10 +370,15 @@ ul.ih_hpa {
     background-size: 550% 450%;
 }
 
+.fi-c {
+    /* footer icon color */
+    background-color: #47b2e4 !important;
+}
+
 .subtf_pa {
     /* subtitle title on p, a */
     position: relative;
-    color: #fff;
+    /* color: #fff; */
     font-size: 20px;
     line-height: 30px;
     list-style: none;
@@ -290,11 +388,9 @@ ul.ih_hpa {
 .sm-icon {
     height: 10vh;
     text-decoration: none;
-    font-size: 40px;
-    text-align: left;
 }
 
-
+/********************************************************************** wave CSS Start ********************* */
 
 
 .waves {
@@ -319,7 +415,7 @@ ul.ih_hpa {
     transform: rotate(180deg);
 }
 
-/* ************************************wave-animationk******************************************************** */
+/* ************************************wave-animation ******************************************************** */
 .surge-waves>use {
     animation: move-forever 40s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
 }
@@ -368,59 +464,103 @@ ul.ih_hpa {
 
 
 
-
-
-
-
-
-
-/* 
-.surge-waves>use:nth-child(1) {
-    animation-delay: -2s;
-    animation-duration: 7s;
-
-}
-
-.surge-waves>use:nth-child(2) {
-    animation-delay: -3s;
-    animation-duration: 10s;
-
-}
-
-.surge-waves>use:nth-child(3) {
-    animation-delay: -4s;
-    animation-duration: 14s;
-
-}
-
-.surge-waves>use:nth-child(4) {
-    animation-delay: -5s;
-    animation-duration: 18s;
-
-}
-
-.surge-waves>use:nth-child(5) {
-    animation-delay: -6s;
-    animation-duration: 20s;
-
-}
-
-.surge-waves>use:nth-child(6) {
-    animation-delay: -7s;
-    animation-duration: 22s;
-
-}
-
-@keyframes move-forever {
-    0% {
-        transform: matrix3d(-90px, 0, 0);
-    }
-
-    100% {
-        transform: matrix3d(85px, 0, 0);
-    }
-
-} */
-
-
 /* Header CSS End */
+/* dropdown start */
+
+.menu-large {
+    position: static !important;
+}
+
+.megamenu {
+    padding: 20px 20px;
+    width: 100%;
+}
+
+.megamenu>div>li>ul {
+    padding: 0;
+    margin: 0;
+}
+
+.megamenu>div>li>ul>li {
+    list-style: none;
+}
+
+.megamenu>div>li>ul>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    white-space: normal;
+
+}
+
+.megamenu>div>li>ul>li>a:hover,
+.megamenu>div>li>ul>li>a:focus {
+    text-decoration: none;
+    color: #47b2e4;
+    background-color: #f5f5f5;
+}
+
+.megamenu.disabled>a,
+.megamenu.disabled>a:hover,
+.megamenu.disabled>a:focus {
+    color: #999999;
+}
+
+.megamenu.disabled>a:hover,
+.megamenu.disabled>a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+    filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+    cursor: not-allowed;
+}
+
+.megamenu.dropdown-header {
+    color: #428bca;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .megamenu {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .megamenu>li {
+        margin-bottom: 30px;
+    }
+
+    .megamenu>li:last-child {
+        margin-bottom: 0;
+    }
+
+    .megamenu.dropdown-header {
+        padding: 3px 15px !important;
+    }
+
+    .navbar-nav .open .dropdown-menu .dropdown-header {
+        color: #428bca;
+    }
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border-radius: 50px;
+    border: 3px solid white;
+}
+
+.row {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* dropdown end */
